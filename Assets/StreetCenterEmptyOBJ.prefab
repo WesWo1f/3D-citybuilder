@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8021322127637405863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8021322127637405861}
+  - component: {fileID: 8021322127637405860}
+  m_Layer: 0
+  m_Name: StreetCenterEmptyOBJ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8021322127637405861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8021322127637405863}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 513.1534, y: 41.01, z: -263.7255}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8021322127637405860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8021322127637405863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b01faf37e7bb744a5b2ce2aba53e5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StreetIntercetion: {fileID: 8221761439129429238, guid: 9ba8c19d32b10f141b56e2fcefbf4e5f,
+    type: 3}
+  MainSt: {fileID: 6771790945980641223, guid: 38787cc4d8a98654b87162f2ad709edd, type: 3}
+  BuildAreaObj: {fileID: 0}
+  StTransform: {fileID: 0}
+  RightStreet: {fileID: 0}
+  StTransform2: {fileID: 0}
+  RightStreet2: {fileID: 0}
+  BuildAreaTransform: {fileID: 0}
+  buildingAreaPosX: 460
+  buildingAreaPosY: 1
+  buildingAreaPosZ: -200
+  StPosX: 515
+  StartingPosX: 515
+  StartingPosY: 1
+  StartingPosZ: -305
+  StPosXBw: 460
+  StPosX2: 515
+  StartingPosX2: 515
+  StartingPosY2: 1
+  StartingPosZ2: -95
+  StPosXBw2: 460
